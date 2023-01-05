@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Document Meta-->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- IE Compatibility Meta-->
+    <meta name="author" content="Mario Muratori"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content="Mobilink"/>
+    <!--  Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;display=swap%7CMontserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" type="text/css"/>
+    <!-- Stylesheets-->
+    <link href="assets/css/vendor.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/0b993312ed.js" crossorigin="anonymous"></script>
+    <!-- include includes/_googleTagHead.pug-->
+    <!-- 
+    Document Title
+    ============================================= 
+    -->
+    <title>MOBILIK</title>
+  </head>
+  <body class="body-scroll">
+    <!-- include includes/_googleTagbody.pug-->
+    <!--  
+    Document Wrapper
+    =============================================  
+    -->
+    <div class="wrapper clearfix" id="wrapper">
+      <!--   
+      Header
+      =============================================  
+      -->
+      <header class="header header-transparent header-sticky">
+        <nav class="navbar navbar-sticky navbar-expand-lg" id="primary-menu"> 
+          <div class="container"> <a class="logo navbar-brand" href="index.html"><img class="logo logo-dark" src="assets/images/logo/logo.png" alt="LeData Logo"/><img class="logo logo-light" src="https://www.mobilink.cl/img/logo-mobilink-01-01.png" alt="LeData Logo"/></a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" data-scroll="scrollTo" href="#hero">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" data-scroll="scrollTo" href="#feature">Trunking</a></li>
+                <li class="nav-item"><a class="nav-link" data-scroll="scrollTo" href="#video">Post Venta</a></li>
+                <li class="nav-item"><a class="nav-link" data-scroll="scrollTo" href="#testimonials">Testimonios</a></li>
+              </ul>
+              <div class="module-container">
+                <!--module-btn-->
+                <div class="module module-cta"><a class="btn btn--white btn--secondary" href="javascript:void(0)"> <span>COTIZAR AQUÍ<i class="icon-right-arrow"></i></span></a></div>
+              </div>
+              <!-- End Module Container  -->
+            </div>
+            <!-- End .nav-collapse-->
+          </div>
+          <!-- End .container-->
+        </nav>
+        <!-- End .navbar-->
+      </header>
+      <!-- End Header-->
+      <!-- Start hero #1-->
+      <section class="hero hero-lead bg-overlay bg-overlay-dark" id="hero">
+        <div class="bg-section"><img src="assets/images/background/portada.png" alt="background"/></div>
+        <div class="divider-shape"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="139" viewBox="0 0 1920 139" preserveAspectRatio="none">
+<g transform="translate(0 -0.59)">
+<path data-name="Path 429" d="M1920,3.4C1575.885,18,1529.1,84.89,1101.63,84.89c-480,0-480-84.3-960-84.3C89.1.59,42.3,1.6,0,3.4V140H1920Z" transform="translate(0)" fill="rgba(255,255,255,0.3)"/>
+<path data-name="Path 430" d="M0,24.31c65.19-5.69,141.84-9.25,237.63-9.25,480,0,480,89.24,960,89.24,384.2,0,460.92-57.16,722.37-80V140H0Z" transform="translate(0)" fill="rgba(255,255,255,0.5)"/>
+<path data-name="Path 431" d="M1920,51.76c-301.5,12.49-363.645,53.4-770.37,53.4-480,0-480-57-960-57C116.355,48.17,54.315,49.51,0,51.76V140H1920Z" fill="#fff"/>
+</g>
+</svg>
+        </div>
+        <div class="container">
+          <div class="hero-cotainer">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="hero-content">
+                  <h1 class="hero-headline">Una comunicación real requiere herramientas adecuadas</h1>
+                  <div class="hero-bio">Manten coordinación en tiempo real con los distintos equipos de trabajo es fundamental para maximizar la eficiencia operativa.</div><a class="scroll-to" href="#feature"><svg xmlns="http://www.w3.org/2000/svg" width="47.7" height="26.26" viewBox="0 0 47.7 26.26">
+<path id="down-chevron" d="M45.221,91.567l-21.371,21.3L2.48,91.567,0,94.055l23.85,23.772L47.7,94.055Z" transform="translate(0 -91.567)" fill="#fff"/>
+</svg></a>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 col-lg-5 offset-lg-1">
+                <div class="hero-action text-center">
+                  <div class="popup-contact-form">
+                    <div class="heading heading-5">
+                      <div class="heading-title">Cotiza con nosotros</div>
+                      <div class="heading-desc">Solicita una demo</div>
+                    </div>
+                    <div class="contact-body">
+                      <form class="contactForm mb-0" method="post" action="assets/php/contact.php">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label for="name">Nombre y apellido:</label>
+                              <input class="form-control" type="text" id="name" name="contact-name" required="required"/>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input class="form-control" type="text" id="email" name="contact-email" required="required"/>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label for="phone">Teléfono:</label>
+                              <input class="form-control" type="text" id="phone" name="contact-phone" required="required"/>
+                            </div>
+                            <button class="btn--block btn btn--secondary mb-20"><span>Enviar</span></button>
+                          </div>
+                          <div class="col-12">
+                            <div class="contact-result"></div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End .contact-body-->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End .row-->
+          </div>
+          <!-- End .hero-content-->
+        </div>
+        <!-- End .container	-->
+      </section>
+      <!-- End #hero   -->
+      <!-- Start Feature #1-->
+      <section class="features" id="feature">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h3 style="color:#007ec6"><i class="fa-solid fa-walkie-talkie"></i></h3>
+              <h3>Servicio Trunking</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="container">
+          <div class="row">
+            
+            <!-- Panel #1  -->
+            <div class="col-12 col-md-12 col-lg-4 ">
+              <div class="feature-panel">
+                <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+                <div class="feature-content">
+                  <h3>Llamada grupal sin restricción</h3>
+                  <p>Llamada grupal <b>ILIMITADA SIN RESTRICCIÓN</b> de grupos ni usuarios</p>
+                </div>
+              </div>
+              <!-- .feature-panel end  -->
+            </div>
+            <!-- .col-md-12 end  -->
+            <!-- Panel #2  -->
+            <div class="col-12 col-md-12 col-lg-4 ">
+              <div class="feature-panel active">
+                <div class="feature-icon"><i class="fa-solid fa-lock"></i></div>
+                <div class="feature-content">
+                  <h3>Llamada privada
+                  </h3>
+                  <p>Llamada <b>PRIVADA</b>, proporciona una conexión instantánea “uno-a-uno”
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end  -->
+            </div>
+            <!-- .col-md-12 end  -->
+            <!-- Panel #3  -->
+            <div class="col-12 col-md-12 col-lg-4 ">
+              <div class="feature-panel">
+                <div class="feature-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                <div class="feature-content">
+                  <h3>Llamada de emergencia
+                  </h3>
+                  <p>Usada por los usuarios de estaciones móviles para informar al despachador sobre alguna situación riesgosa
+
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end  -->
+            </div>
+            <!-- .col-md-12 end  -->
+          </div>
+          <!-- End .row  -->
+        </div>
+        <!-- End .container  -->
+      </section>
+      <!-- Video Section-->
+      <section class="video-section bg-light-primary" id="video">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+              <div class="heading heading-1 text-center">
+                <h2 class="heading-title">
+                  MOTOTRBO<br> Reinventando Digital</h2>
+                <p class="heading-desc">MOTOTRBO lo ayuda a superar sus desafíos ofreciéndole un sistema digital cada vez más completo
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-10 offset-md-1">
+              <div class="video">
+             <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+<div id="player"></div>
+<script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '518',
+          width: '1017',
+          videoId: 'mWBMBAZmrts',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+           event.target.setVolume(0);
+       event.target.playVideo();
+      }
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+    //      setTimeout(stopVideo, 6000);
+                  done = true;
+        }
+           event.target.setVolume(0);
+      }
+</script> </div>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services features features-2 bg-pink" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="service-card">
+                <div class="service-card-top">
+                  <div class="bg-section"><img src="assets/images/background/bg-card.png" alt="background"/></div>
+                </div>
+                <div class="service-card-middle">
+                  <div class="service-card-bg">
+                    <div class="bg-section"><img class="img-fluid" src="https://www.mobilink.cl/imgcobertura/sitios/image009.jpg" alt="vector"/></div>
+                  </div>
+                </div>
+                <div class="service-card-bottom">
+                  <div class="bg-section"><img src="assets/images/background/bg-card.png" alt="background"/></div>
+                  <div class="counters">
+                    <div class="counting-holder"><span class="counting">24</span> hs</div>
+                    <p class="counting-desc" style="font-size: 16px;">contacto de emergencia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="service-content">
+                <div class="heading heading-4">
+                  <h2 class="heading-title">Servicio Post Venta</h2>
+                  <p class="heading-desc">Nuestro equipo de Post Venta proporciona atención personalizada, con especial cuidado en las necesidades Técnico–Operativas y Administrativas. 
+                  </p>
+                </div>
+                <ul class="list-unstyled service-list">
+                  <li> 
+                    <div class="feature-panel">
+                      <div class="feature-icon">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h3>Técnico Capacitador en terreno y Soporte Aplicaciones</h3>
+                        <p>Sed ut perspiciatis unde omnis iste
+                          natus error sit voluptatem.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li> 
+                    <div class="feature-panel">
+                      <div class="feature-icon"><i class="fa-solid fa-handshake"></i></div>
+                      <div class="feature-content">
+                        <h3>Ejecutivo de Postventa</h3>
+                        <p>Sed ut perspiciatis unde omnis iste
+                          natus error sit voluptatem.</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Testimonials-->
+      <section class="testimonials bg-light-primary" id="testimonials">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+              <div class="heading heading-1 text-center">
+                <h2 class="heading-title">
+                  Lo que comentan nuestros clientes</h2>
+                <p class="heading-desc">Luego de usar nuestros servicios</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+              <div class="owl-carousel carousel-dots carousel-navs" data-slide="3" data-slide-res="1" data-autoplay="false" data-nav="true" data-dots="true" data-space="30" data-loop="true" data-speed="800" data-center="true">
+                <!--  Testimonial #1   -->
+                <div class="testimonial-panel">
+                  <div class="testimonial-body">
+                    <div class="testimonial-icon"><span class="icon-left-quotes-sign"></span></div>
+                    <div class="testimonial-author">
+                      <div class="testimonial-img"><img src="assets/images/testimonials/avatar-1.png" alt="avatar author"/></div>
+                      <p><span>Mario Muratori</span></p>
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste
+                          natus error sit voluptatem.</p>
+                  </div>
+                </div>
+                <!--  Testimonial #2 -->
+                <div class="testimonial-panel">
+                  <div class="testimonial-body">
+                    <div class="testimonial-icon"><span class="icon-left-quotes-sign"></span></div>
+                    <div class="testimonial-author">
+                      <div class="testimonial-img"><img src="assets/images/testimonials/avatar-2.png" alt="author"/></div>
+                      <p><span>Mario Muratori</span></p>
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste
+                          natus error sit voluptatem.</p>
+                  </div>
+                </div>
+                <!--  Testimonial #3 -->
+                <div class="testimonial-panel">
+                  <div class="testimonial-body">
+                    <div class="testimonial-icon"><span class="icon-left-quotes-sign"></span></div>
+                    <div class="testimonial-author">
+                      <div class="testimonial-img"><img src="assets/images/testimonials/avatar-3.png" alt="author"/></div>
+                      <p><span>Mario Muratori</span></p>
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste
+                          natus error sit voluptatem.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End .container  -->
+      </section>
+      <!-- End #testimonials -->
+      <!-- 
+      CTA #1
+      =============================================  
+      -->
+      <section class="cta text-center bg-overlay bg-overlay-dark" id="cta">
+        <div class="bg-section"><img src="https://www.mobilink.cl/imgcobertura/sitios/Sitio-Lampa2.jpg" alt="background"/></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 text-center">
+              <h3>Cualquiera que sea el desafío, ofrecemos una solución.</h3>
+              <p>Bengal. Birman. American shorthair tabby russian blue. Turkish angora leopard yet malkin and ocicat cougar, cougar manx. Cornish rex cougar but bombay, cheetah.</p><a class="btn btn--secondary mx-auto" href="javascript:void(0)" data-toggle="modal" data-target="#contactUsModal"> <span>Cotizar <i class="icon-right-arrow"></i></span></a>
+            </div>
+            <!-- End .col-md-12-->
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
+      <!-- End #cta-->
+      <!-- 
+      Footer #1
+      ============================================= 
+      -->
+      <footer class="footer" id="footer">
+        <div class="footer-widgets-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="footer-widget"><a class="logo navbar-brand" href="index.html"><img class="logo logo-light" src="https://www.mobilink.cl/img/logo-mobilink-01-01.png" alt="LeData Logo"/></a>
+                  <div class="footer-contact">
+                    <ul class="list-unstyled">
+                      <li> <a href="mailto:support@LeData.com">mobilink@motorolasolutions.com</a></li>
+                      <li> <a href="tel:+25-485-685-245">+562 2240 6100</a></li>
+                    </ul>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <hr/>
+        </div>
+        <!-- 
+        Copyrights
+        =============================================  
+        -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 text--center">
+              <div class="footer-copyright"><span>MOTOROLA, MOTO, MOTOROLA SOLUTIONS y el logotipo de la M estilizada son marcas comerciales o marcas comerciales registradas de Motorola Trademark Holdings, LLC y son utilizadas bajo licencia. Todas las demás marcas comerciales pertenecen a sus respectivos propietarios.
+              </span>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End .container  -->
+      </footer>
+    </div>
+    <!-- 
+    Footer Scripts
+    =============================================  
+    -->
+    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/functions.js"></script>
+  </body>
+</html>
